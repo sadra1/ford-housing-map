@@ -62,7 +62,7 @@ define({
         {"name": "share", "enabled": true}
     ],
     //Set the active tool on the toolbar. Note home and locate can't be the active tool.
-    "activeTool": "legend",
+    "activeTool": "layers",
     //Add the geocoding tool next to the title bar
     "search": true,
     //Add the home extent button to the toolbar
