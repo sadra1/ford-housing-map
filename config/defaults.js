@@ -72,7 +72,7 @@ define({
     //Specify a title for the application. If not provided the web map title is used.
     "title": "Neighborhood Data Portal",
     //Details section of the app --sadra 
-    "details": "here is my detail baba jan"
+    "description": "here is my detail baba jan"
     //This option demonstrates how to handle additional custom url parameters. For example
     //if you want users to be able to specify lat/lon coordinates that define the map's center or
     //specify an alternate basemap via a url parameter.
