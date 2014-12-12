@@ -68,56 +68,7 @@ define({
     //Add the home extent button to the toolbar
     "home": true,
     // value for the "details" button in the app 
-   "description": "<b>Neighborhood Data Portal Sources Neighborhood Tabulation Area: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/nynta_metadata.pdf),
-•	Total Population in 200 and 2010 and change in total population U.S. Census Bureau; Census 2000, U.S. Census Bureau; Census 2010 (http://factfinder2.census.gov), 
-•	Vacant Lots number and area: PLUTO 2013, New York City Department of City Planning, Information Technology Division (http://www.nyc.gov/html/dcp/pdf/bytes/meta_mappluto.pdf), 
-•	Elementary Schools, Middle and K8 Schools, High Schools, K12 Schools, Other School, All Schools: NYC Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/selfac_metadata.pdf), 
-•	Crime data: Ontodia, Inc. (http://nycdata.pediacities.com/dataset/nyc-crime-data), 
-•	Motor Vehicle Collision Data: Police Department (NYPD) (https://data.cityofnewyork.us/NYC-BigApps/NYPD-Motor-Vehicle-Collisions/h9gi-nx95), 
-•	School Capacity Data: New York City School Construction Authority, Enrollment, and Utilization Report (Blue Book) (school year 2011) (http://www.nycsca.org/Community/CapitalPlanManagementReportsData/Pages/EnrollmentCapacityUtilization.aspx)
-Community Districts: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/nycd_metadata.pdf?v=14d)
-Median Household Income: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B19013#main_content)
-Rent Burdened Households: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B25070#main_content)
-Severely Rent-Burdened Households: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B25070#main_content)
-Percent Hispanic: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B03002#main_content)
-Percent Asian: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B03002#main_content)
-Percent Black: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B03002#main_content)
-Percent White Non-Hispanic: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B03002#main_content)
-Percent Under 5 Years Old: U.S. Census Bureau; 2010 Census Summary File 1 (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.DEC_10_SF1_SF1DP1#main_content)
-Percent 5-19 Years Old: U.S. Census Bureau; 2010 Census Summary File 1 (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.DEC_10_SF1_SF1DP1#main_content)
-Percent 20-64 Years Old: U.S. Census Bureau; 2010 Census Summary File 1 (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.DEC_10_SF1_SF1DP1#main_content)
-Percent Over 65 Years Old: U.S. Census Bureau; 2010 Census Summary File 1 (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.DEC_10_SF1_SF1DP1#main_content)
-Less than 12th Grade: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B15003#main_content)
-High School Diploma or GED: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B15003#main_content)
-Some College: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B15003#main_content)
-Bachelor’s Degree: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_B15003#main_content)
-Percent Unemployment: U.S. Census Bureau; 2012 American Community Survey 5-Year Estimates (http://factfinder2.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&type=table&id=table.en.ACS_12_5YR_S2301#main_content)
-Furman Center State of the Neighborhoods Data 2013: NYU Furman Center (http://furmancenter.org/files/sotc/SOC2013_HighRes.pdf)
-Furman Center State of the Neighborhoods Data 2012: NYU Furman Center (http://furmancenter.org/files/sotc/SOC2012.pdf)
-Commute 45-59 minutes: U.S. Census Bureau, American Community Survey 2006-2010 Five-year estimates. Special Tabulation: Census Transportation Planning (http://www.fhwa.dot.gov/planning/census_issues/ctpp/)
-Commute 60-74 minutes: U.S. Census Bureau, American Community Survey 2006-2010 Five-year estimates. Special Tabulation: Census Transportation Planning (http://www.fhwa.dot.gov/planning/census_issues/ctpp/)
-Commute 75-89 minutes: U.S. Census Bureau, American Community Survey 2006-2010 Five-year estimates. Special Tabulation: Census Transportation Planning (http://www.fhwa.dot.gov/planning/census_issues/ctpp/)
-Commute 90 minutes or more: U.S. Census Bureau, American Community Survey 2006-2010 Five-year estimates. Special Tabulation: Census Transportation Planning (http://www.fhwa.dot.gov/planning/census_issues/ctpp/)
-Parks larger than 8 acres: NYC Department of Parks and Recreation, NYC Department of Information Technology & Telecommunications (https://data.cityofnewyork.us/d/g84h-jbjm?category=Recreation&view_name=New-York-City-Open-Spaces-Parks)
-Bike Lanes: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/lion_metadata.pdf?v=14d)
-Truck Routes: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/lion_metadata.pdf?v=14d)
-Job Locations and Number of Workers: U.S. Census Bureau, American Community Survey 2006-2010 Five-year estimates. Special Tabulation: Census Transportation Planning (http://www.fhwa.dot.gov/planning/census_issues/ctpp/)
-Food Stores over 10,000 Square Feet: ReferenceUSA Online Database (http://www.referenceusa.com/Static/Home)
-Green Markets and Other Community Markets: [GrowNYC?]
-Commercial Uses: New York City Department of City Planning, Information Technology Division (http://www.nyc.gov/html/dcp/pdf/bytes/meta_mappluto.pdf)
-Vacant Lots: New York City Department of City Planning, Information Technology Division (http://www.nyc.gov/html/dcp/pdf/bytes/meta_mappluto.pdf)
-Remediation Sites: NYS Department of Environmental Conservation (https://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1097)
-Chemical Bulk Storage: NYS Department of Environmental Conservation (https://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1253)
-Public Elementary Schools with DOE Ratings: NYC Department of Education (http://schools.nyc.gov/Accountability/tools/report/ProgressReport_2007-2013.htm)
-Public Middle and K8 Schools with DOE Ratings: NYC Department of Education (http://schools.nyc.gov/Accountability/tools/report/ProgressReport_2007-2013.htm)
-Public High Schools with DOE Ratings: NYC Department of Education (http://schools.nyc.gov/Accountability/tools/report/ProgressReport_2007-2013.htm)
-Public K12 Schools with DOE Ratings: NYC Department of Education (http://schools.nyc.gov/Accountability/tools/report/ProgressReport_2007-2013.htm)
-Special Schools with DOE Ratings: NYC Department of Education (http://schools.nyc.gov/Accountability/tools/report/ProgressReport_2007-2013.htm)
-Private Schools through Grade 12: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/selfac_metadata.pdf)
-Colleges and Universities: New York City Department of City Planning (http://www.nyc.gov/html/dcp/pdf/bytes/selfac_metadata.pdf)
-
-
-
+   "description": "<b> here it is
 </b>",
     //Add the geolocation button on the toolbar. Only displayed if browser supports geolocation
     "locate": true,
