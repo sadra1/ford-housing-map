@@ -68,8 +68,7 @@ define({
     //Add the home extent button to the toolbar
     "home": true,
     // value for the "details" button in the app 
-   "description": "<b> here it is
-</b>",
+   "description": "<b> here it is</b>",
     //Add the geolocation button on the toolbar. Only displayed if browser supports geolocation
     "locate": true,
     //Specify a title for the application. If not provided the web map title is used.
