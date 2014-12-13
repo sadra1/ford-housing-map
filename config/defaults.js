@@ -68,7 +68,7 @@ define({
     //Add the home extent button to the toolbar
     "home": true,
     // value for the "details" button in the app 
-   "description": "<b><p>List of Data Sources</p></b> <p> <a class='sources' href='http://www.nyc.gov/html/dcp/pdf/bytes/nynta_metadata.pdf'>Neighborhood Tabulation Area: New York City Department of City Planning</a></p><p><a class='sources' href='http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml'>•	Total Population in 200 and 2010 and change in total population U.S. Census Bureau; Census 2000, U.S. Census Bureau; Census 2010</a></p>",
+   "description": "<b><p>List of Data Sources</p></b>   <p><a class='sources' href='http://www.nyc.gov/html/dcp/pdf/bytes/nynta_metadata.pdf'>Neighborhood Tabulation Area: New York City Department of City Planning</a></p>   <p><a class='sources' href='http://www.nyc.gov/html/dcp/html/census/demo_tables_2010.shtml'>•	Total Population in 200 and 2010 and change in total population U.S. Census Bureau; Census 2000, U.S. Census Bureau; Census 2010</a></p>   <p><a class='sources' href='http://www.nyc.gov/html/dcp/pdf/bytes/meta_mappluto.pdf'>•	Vacant Lots number and area: PLUTO 2013, New York City Department of City Planning, Information Technology Division</a></p>"  ,
     //Add the geolocation button on the toolbar. Only displayed if browser supports geolocation
     "locate": true,
     //Specify a title for the application. If not provided the web map title is used.
