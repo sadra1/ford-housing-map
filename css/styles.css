@@ -32,7 +32,10 @@
   line-height: 16px;
   height: 16px;
   border: 1px solid transparent;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size:80%;
+  
+}
 
 .esriRTL .TableOfContents .toc-text {
   float: right; }
